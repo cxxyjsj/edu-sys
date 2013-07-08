@@ -10,7 +10,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>用户登录</title>
+    <title></title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
@@ -23,14 +23,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    <center>
-    	<h1>用户登录</h1>
-    	<s:a action="user_addUI" namespace="/user">添加新用户</s:a>
-    	<s:form action="user_login" namespace="/user" method="post">
-    		<s:textfield label="用户名" name="user.username"></s:textfield>
-    		<s:password label="密码" name="user.password"></s:password>
-    		<s:submit value="登录"></s:submit>
-    	</s:form>
-    </center>
+    <h1>Hello World!!!</h1>
   </body>
 </html>
